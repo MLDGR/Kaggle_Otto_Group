@@ -13,6 +13,9 @@ require(deepnet)
 require(darch)
 require(tidyr)
 require(mlr)
+require(dplyr)
+require(ggplot2)
+
 
 
 

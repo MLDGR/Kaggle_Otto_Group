@@ -1,6 +1,3 @@
-#Load dependency
-library(nnet)
-
 # set seed
 set.seed(1337)
 

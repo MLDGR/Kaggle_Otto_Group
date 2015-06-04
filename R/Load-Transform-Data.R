@@ -110,4 +110,21 @@ trainBalanceado<-rbind(Data_clases[[2]],Data_clases[[1]],Data_clases[[1]],Data_c
                        Data_clases[[9]])
 
 
+m <- ggplot(train, aes(x = target))
+m + geom_histogram(aes(fill = ..count..)) +
+  scale_fill_gradient("Count", low = "green", high = "red")
+
+apply(train,2,unique)
+
+
+dato<-as.data.frame(cbind())
+
+m <- ggplot(dato, aes(x = target))
+m + geom_histogram(aes(fill = ..count..)) +
+  scale_fill_gradient("Count", low = "green", high = "red")
+
+apply(train,2,unique)
+
+
+
 

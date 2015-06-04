@@ -1,4 +1,3 @@
-#H2O Benchmark - Neural Net
 library(h2o)
 localH2O = h2o.init(ip = "localhost",nthreads = 6, port = 54321, startH2O = TRUE, 
                     Xmx = '6g')

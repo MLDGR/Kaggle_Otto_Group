@@ -1,0 +1,8 @@
+title: Kaggle otto group Challenge
+description: Description of approaches to the Otto Group Product Classification Challenge on Kaggle
+google_analytics: UA-72595181-1
+show_downloads: true
+theme: jekyll-theme-slate
+
+gems:
+  - jekyll-mentions
